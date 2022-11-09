@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84B41483291C4923001FA524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B41482291C4923001FA524 /* AppDelegate.swift */; };
+		84B41485291C4923001FA524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B41484291C4923001FA524 /* SceneDelegate.swift */; };
+		84B4148A291C4923001FA524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B41488291C4923001FA524 /* Main.storyboard */; };
+		84B4148C291C4924001FA524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B4148B291C4924001FA524 /* Assets.xcassets */; };
+		84B4148F291C4924001FA524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B4148D291C4924001FA524 /* LaunchScreen.storyboard */; };
+		84B4149A291C4924001FA524 /* SquareTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B41499291C4924001FA524 /* SquareTakeHomeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84B41496291C4924001FA524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B41477291C4923001FA524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B4147E291C4923001FA524;
+			remoteInfo = SquareTakeHome;
+		};
+		84B414A0291C4924001FA524 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84B41477291C4923001FA524 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84B4147E291C4923001FA524;
+			remoteInfo = SquareTakeHome;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84B4147F291C4923001FA524 /* SquareTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B41482291C4923001FA524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84B41484291C4923001FA524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		84B41489291C4923001FA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84B4148B291C4924001FA524 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84B4148E291C4924001FA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84B41490291C4924001FA524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84B41495291C4924001FA524 /* SquareTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B41499291C4924001FA524 /* SquareTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareTakeHomeTests.swift; sourceTree = "<group>"; };
+		84B4149F291C4924001FA524 /* SquareTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84B4147C291C4923001FA524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B41492291C4924001FA524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4149C291C4924001FA524 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84B41476291C4923001FA524 = {
+			isa = PBXGroup;
+			children = (
+				84B41481291C4923001FA524 /* SquareTakeHome */,
+				84B41498291C4924001FA524 /* SquareTakeHomeTests */,
+				84B41480291C4923001FA524 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84B41480291C4923001FA524 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84B4147F291C4923001FA524 /* SquareTakeHome.app */,
+				84B41495291C4924001FA524 /* SquareTakeHomeTests.xctest */,
+				84B4149F291C4924001FA524 /* SquareTakeHomeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84B41481291C4923001FA524 /* SquareTakeHome */ = {
+			isa = PBXGroup;
+			children = (
+				84B41482291C4923001FA524 /* AppDelegate.swift */,
+				84B41484291C4923001FA524 /* SceneDelegate.swift */,
+				84B41488291C4923001FA524 /* Main.storyboard */,
+				84B4148B291C4924001FA524 /* Assets.xcassets */,
+				84B4148D291C4924001FA524 /* LaunchScreen.storyboard */,
+				84B41490291C4924001FA524 /* Info.plist */,
+			);
+			path = SquareTakeHome;
+			sourceTree = "<group>";
+		};
+		84B41498291C4924001FA524 /* SquareTakeHomeTests */ = {
+			isa = PBXGroup;
+			children = (
+				84B41499291C4924001FA524 /* SquareTakeHomeTests.swift */,
+			);
+			path = SquareTakeHomeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84B4147E291C4923001FA524 /* SquareTakeHome */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B414A9291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHome" */;
+			buildPhases = (
+				84B4147B291C4923001FA524 /* Sources */,
+				84B4147C291C4923001FA524 /* Frameworks */,
+				84B4147D291C4923001FA524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SquareTakeHome;
+			productName = SquareTakeHome;
+			productReference = 84B4147F291C4923001FA524 /* SquareTakeHome.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84B41494291C4924001FA524 /* SquareTakeHomeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B414AC291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeTests" */;
+			buildPhases = (
+				84B41491291C4924001FA524 /* Sources */,
+				84B41492291C4924001FA524 /* Frameworks */,
+				84B41493291C4924001FA524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B41497291C4924001FA524 /* PBXTargetDependency */,
+			);
+			name = SquareTakeHomeTests;
+			productName = SquareTakeHomeTests;
+			productReference = 84B41495291C4924001FA524 /* SquareTakeHomeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84B4149E291C4924001FA524 /* SquareTakeHomeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84B414AF291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeUITests" */;
+			buildPhases = (
+				84B4149B291C4924001FA524 /* Sources */,
+				84B4149C291C4924001FA524 /* Frameworks */,
+				84B4149D291C4924001FA524 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84B414A1291C4924001FA524 /* PBXTargetDependency */,
+			);
+			name = SquareTakeHomeUITests;
+			productName = SquareTakeHomeUITests;
+			productReference = 84B4149F291C4924001FA524 /* SquareTakeHomeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84B41477291C4923001FA524 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					84B4147E291C4923001FA524 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					84B41494291C4924001FA524 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 84B4147E291C4923001FA524;
+					};
+					84B4149E291C4924001FA524 = {
+						CreatedOnToolsVersion = 14.1;
+						TestTargetID = 84B4147E291C4923001FA524;
+					};
+				};
+			};
+			buildConfigurationList = 84B4147A291C4923001FA524 /* Build configuration list for PBXProject "SquareTakeHome" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84B41476291C4923001FA524;
+			productRefGroup = 84B41480291C4923001FA524 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84B4147E291C4923001FA524 /* SquareTakeHome */,
+				84B41494291C4924001FA524 /* SquareTakeHomeTests */,
+				84B4149E291C4924001FA524 /* SquareTakeHomeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84B4147D291C4923001FA524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B4148F291C4924001FA524 /* LaunchScreen.storyboard in Resources */,
+				84B4148C291C4924001FA524 /* Assets.xcassets in Resources */,
+				84B4148A291C4923001FA524 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B41493291C4924001FA524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4149D291C4924001FA524 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84B4147B291C4923001FA524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B41483291C4923001FA524 /* AppDelegate.swift in Sources */,
+				84B41485291C4923001FA524 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B41491291C4924001FA524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84B4149A291C4924001FA524 /* SquareTakeHomeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84B4149B291C4924001FA524 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84B41497291C4924001FA524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B4147E291C4923001FA524 /* SquareTakeHome */;
+			targetProxy = 84B41496291C4924001FA524 /* PBXContainerItemProxy */;
+		};
+		84B414A1291C4924001FA524 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84B4147E291C4923001FA524 /* SquareTakeHome */;
+			targetProxy = 84B414A0291C4924001FA524 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84B41488291C4923001FA524 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B41489291C4923001FA524 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84B4148D291C4924001FA524 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84B4148E291C4924001FA524 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84B414A7291C4924001FA524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84B414A8291C4924001FA524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84B414AA291C4924001FA524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7246AT3D4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SquareTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84B414AB291C4924001FA524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7246AT3D4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SquareTakeHome/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHome;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84B414AD291C4924001FA524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7246AT3D4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquareTakeHome";
+			};
+			name = Debug;
+		};
+		84B414AE291C4924001FA524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7246AT3D4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquareTakeHome";
+			};
+			name = Release;
+		};
+		84B414B0291C4924001FA524 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7246AT3D4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquareTakeHome;
+			};
+			name = Debug;
+		};
+		84B414B1291C4924001FA524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7246AT3D4F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SquareTakeHome;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84B4147A291C4923001FA524 /* Build configuration list for PBXProject "SquareTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B414A7291C4924001FA524 /* Debug */,
+				84B414A8291C4924001FA524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B414A9291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHome" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B414AA291C4924001FA524 /* Debug */,
+				84B414AB291C4924001FA524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B414AC291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B414AD291C4924001FA524 /* Debug */,
+				84B414AE291C4924001FA524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84B414AF291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84B414B0291C4924001FA524 /* Debug */,
+				84B414B1291C4924001FA524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84B41477291C4923001FA524 /* Project object */;
+}
