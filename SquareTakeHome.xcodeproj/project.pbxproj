@@ -12,18 +12,14 @@
 		84B4148A291C4923001FA524 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B41488291C4923001FA524 /* Main.storyboard */; };
 		84B4148C291C4924001FA524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B4148B291C4924001FA524 /* Assets.xcassets */; };
 		84B4148F291C4924001FA524 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84B4148D291C4924001FA524 /* LaunchScreen.storyboard */; };
-		84B4149A291C4924001FA524 /* SquareTakeHomeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B41499291C4924001FA524 /* SquareTakeHomeTests.swift */; };
+		84B414B4291C4999001FA524 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414B3291C4999001FA524 /* Employee.swift */; };
+		84B414B6291C49BE001FA524 /* EmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414B5291C49BE001FA524 /* EmployeeTests.swift */; };
+		84B414B8291CA2BB001FA524 /* ValidEmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414B7291CA2BB001FA524 /* ValidEmployeeData.swift */; };
+		84B414BC291CA309001FA524 /* MalformedEmployeeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414BB291CA309001FA524 /* MalformedEmployeeData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		84B41496291C4924001FA524 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 84B41477291C4923001FA524 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 84B4147E291C4923001FA524;
-			remoteInfo = SquareTakeHome;
-		};
-		84B414A0291C4924001FA524 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 84B41477291C4923001FA524 /* Project object */;
 			proxyType = 1;
@@ -41,8 +37,10 @@
 		84B4148E291C4924001FA524 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84B41490291C4924001FA524 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84B41495291C4924001FA524 /* SquareTakeHomeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareTakeHomeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		84B41499291C4924001FA524 /* SquareTakeHomeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareTakeHomeTests.swift; sourceTree = "<group>"; };
-		84B4149F291C4924001FA524 /* SquareTakeHomeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SquareTakeHomeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84B414B3291C4999001FA524 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		84B414B5291C49BE001FA524 /* EmployeeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeTests.swift; sourceTree = "<group>"; };
+		84B414B7291CA2BB001FA524 /* ValidEmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidEmployeeData.swift; sourceTree = "<group>"; };
+		84B414BB291CA309001FA524 /* MalformedEmployeeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MalformedEmployeeData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,13 +52,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		84B41492291C4924001FA524 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84B4149C291C4924001FA524 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +75,6 @@
 			children = (
 				84B4147F291C4923001FA524 /* SquareTakeHome.app */,
 				84B41495291C4924001FA524 /* SquareTakeHomeTests.xctest */,
-				84B4149F291C4924001FA524 /* SquareTakeHomeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -92,6 +82,7 @@
 		84B41481291C4923001FA524 /* SquareTakeHome */ = {
 			isa = PBXGroup;
 			children = (
+				84B414B2291C4988001FA524 /* Models */,
 				84B41482291C4923001FA524 /* AppDelegate.swift */,
 				84B41484291C4923001FA524 /* SceneDelegate.swift */,
 				84B41488291C4923001FA524 /* Main.storyboard */,
@@ -105,9 +96,35 @@
 		84B41498291C4924001FA524 /* SquareTakeHomeTests */ = {
 			isa = PBXGroup;
 			children = (
-				84B41499291C4924001FA524 /* SquareTakeHomeTests.swift */,
+				84B414BA291CA2DC001FA524 /* Stubs */,
+				84B414B9291CA2CE001FA524 /* Models */,
 			);
 			path = SquareTakeHomeTests;
+			sourceTree = "<group>";
+		};
+		84B414B2291C4988001FA524 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84B414B3291C4999001FA524 /* Employee.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84B414B9291CA2CE001FA524 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				84B414B5291C49BE001FA524 /* EmployeeTests.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		84B414BA291CA2DC001FA524 /* Stubs */ = {
+			isa = PBXGroup;
+			children = (
+				84B414B7291CA2BB001FA524 /* ValidEmployeeData.swift */,
+				84B414BB291CA309001FA524 /* MalformedEmployeeData.swift */,
+			);
+			path = Stubs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -148,24 +165,6 @@
 			productReference = 84B41495291C4924001FA524 /* SquareTakeHomeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		84B4149E291C4924001FA524 /* SquareTakeHomeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 84B414AF291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeUITests" */;
-			buildPhases = (
-				84B4149B291C4924001FA524 /* Sources */,
-				84B4149C291C4924001FA524 /* Frameworks */,
-				84B4149D291C4924001FA524 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				84B414A1291C4924001FA524 /* PBXTargetDependency */,
-			);
-			name = SquareTakeHomeUITests;
-			productName = SquareTakeHomeUITests;
-			productReference = 84B4149F291C4924001FA524 /* SquareTakeHomeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -181,10 +180,7 @@
 					};
 					84B41494291C4924001FA524 = {
 						CreatedOnToolsVersion = 14.1;
-						TestTargetID = 84B4147E291C4923001FA524;
-					};
-					84B4149E291C4924001FA524 = {
-						CreatedOnToolsVersion = 14.1;
+						LastSwiftMigration = 1410;
 						TestTargetID = 84B4147E291C4923001FA524;
 					};
 				};
@@ -204,7 +200,6 @@
 			targets = (
 				84B4147E291C4923001FA524 /* SquareTakeHome */,
 				84B41494291C4924001FA524 /* SquareTakeHomeTests */,
-				84B4149E291C4924001FA524 /* SquareTakeHomeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -227,13 +222,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		84B4149D291C4924001FA524 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -242,6 +230,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84B41483291C4923001FA524 /* AppDelegate.swift in Sources */,
+				84B414B4291C4999001FA524 /* Employee.swift in Sources */,
 				84B41485291C4923001FA524 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -250,14 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84B4149A291C4924001FA524 /* SquareTakeHomeTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		84B4149B291C4924001FA524 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				84B414B8291CA2BB001FA524 /* ValidEmployeeData.swift in Sources */,
+				84B414B6291C49BE001FA524 /* EmployeeTests.swift in Sources */,
+				84B414BC291CA309001FA524 /* MalformedEmployeeData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,11 +252,6 @@
 			isa = PBXTargetDependency;
 			target = 84B4147E291C4923001FA524 /* SquareTakeHome */;
 			targetProxy = 84B41496291C4924001FA524 /* PBXContainerItemProxy */;
-		};
-		84B414A1291C4924001FA524 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 84B4147E291C4923001FA524 /* SquareTakeHome */;
-			targetProxy = 84B414A0291C4924001FA524 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -471,15 +450,22 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7246AT3D4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquareTakeHome";
@@ -491,11 +477,17 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7246AT3D4F;
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,42 +495,6 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SquareTakeHome.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SquareTakeHome";
-			};
-			name = Release;
-		};
-		84B414B0291C4924001FA524 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7246AT3D4F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SquareTakeHome;
-			};
-			name = Debug;
-		};
-		84B414B1291C4924001FA524 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 7246AT3D4F;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.aaavee.SquareTakeHomeUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SquareTakeHome;
 			};
 			name = Release;
 		};
@@ -568,15 +524,6 @@
 			buildConfigurations = (
 				84B414AD291C4924001FA524 /* Debug */,
 				84B414AE291C4924001FA524 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		84B414AF291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				84B414B0291C4924001FA524 /* Debug */,
-				84B414B1291C4924001FA524 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
