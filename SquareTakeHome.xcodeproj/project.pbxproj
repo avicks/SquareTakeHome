@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 55;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -23,6 +23,8 @@
 		84B414C8291D4E74001FA524 /* EmployeeAPIManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414C7291D4E74001FA524 /* EmployeeAPIManagerTests.swift */; };
 		84B414CA291D4E7F001FA524 /* MockEmployeeAPIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414C9291D4E7F001FA524 /* MockEmployeeAPIManager.swift */; };
 		84B414CD291D5522001FA524 /* DirectoryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414CC291D5522001FA524 /* DirectoryViewModel.swift */; };
+		950DE85B2313D03847CBC933 /* libPods-SquareTakeHomeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4945DA354C184C782A5409 /* libPods-SquareTakeHomeTests.a */; };
+		D30C13757E3857698D4E3E0D /* libPods-SquareTakeHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EF8C389FBE9A854752E1C1 /* libPods-SquareTakeHome.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		588AEC80CAFA762FBF6625B6 /* Pods-SquareTakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHome.debug.xcconfig"; path = "Target Support Files/Pods-SquareTakeHome/Pods-SquareTakeHome.debug.xcconfig"; sourceTree = "<group>"; };
+		6B9E823BFFDD801686C6D8EE /* Pods-SquareTakeHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHomeTests.release.xcconfig"; path = "Target Support Files/Pods-SquareTakeHomeTests/Pods-SquareTakeHomeTests.release.xcconfig"; sourceTree = "<group>"; };
+		724B3F01BCA6BE01242EF7A5 /* Pods-SquareTakeHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-SquareTakeHomeTests/Pods-SquareTakeHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		84B4147F291C4923001FA524 /* SquareTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B41482291C4923001FA524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B41484291C4923001FA524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +60,9 @@
 		84B414C7291D4E74001FA524 /* EmployeeAPIManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAPIManagerTests.swift; sourceTree = "<group>"; };
 		84B414C9291D4E7F001FA524 /* MockEmployeeAPIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockEmployeeAPIManager.swift; sourceTree = "<group>"; };
 		84B414CC291D5522001FA524 /* DirectoryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryViewModel.swift; sourceTree = "<group>"; };
+		C6EF8C389FBE9A854752E1C1 /* libPods-SquareTakeHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareTakeHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE4945DA354C184C782A5409 /* libPods-SquareTakeHomeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareTakeHomeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEE2ED392AC491C7893ABB70 /* Pods-SquareTakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHome.release.xcconfig"; path = "Target Support Files/Pods-SquareTakeHome/Pods-SquareTakeHome.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D30C13757E3857698D4E3E0D /* libPods-SquareTakeHome.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -69,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				950DE85B2313D03847CBC933 /* libPods-SquareTakeHomeTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +91,8 @@
 				84B41481291C4923001FA524 /* SquareTakeHome */,
 				84B41498291C4924001FA524 /* SquareTakeHomeTests */,
 				84B41480291C4923001FA524 /* Products */,
+				DCA27A96EC51EF6FF0485A13 /* Pods */,
+				DE6AFF88651678F9F735AA6F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -172,6 +184,26 @@
 			path = ViewModels;
 			sourceTree = "<group>";
 		};
+		DCA27A96EC51EF6FF0485A13 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				588AEC80CAFA762FBF6625B6 /* Pods-SquareTakeHome.debug.xcconfig */,
+				FEE2ED392AC491C7893ABB70 /* Pods-SquareTakeHome.release.xcconfig */,
+				724B3F01BCA6BE01242EF7A5 /* Pods-SquareTakeHomeTests.debug.xcconfig */,
+				6B9E823BFFDD801686C6D8EE /* Pods-SquareTakeHomeTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		DE6AFF88651678F9F735AA6F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C6EF8C389FBE9A854752E1C1 /* libPods-SquareTakeHome.a */,
+				FE4945DA354C184C782A5409 /* libPods-SquareTakeHomeTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -179,6 +211,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B414A9291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHome" */;
 			buildPhases = (
+				77D2615B03FAF1AD7D3D1A8F /* [CP] Check Pods Manifest.lock */,
 				84B4147B291C4923001FA524 /* Sources */,
 				84B4147C291C4923001FA524 /* Frameworks */,
 				84B4147D291C4923001FA524 /* Resources */,
@@ -196,6 +229,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84B414AC291C4924001FA524 /* Build configuration list for PBXNativeTarget "SquareTakeHomeTests" */;
 			buildPhases = (
+				9D72EC049C3EDA99F388487A /* [CP] Check Pods Manifest.lock */,
 				84B41491291C4924001FA524 /* Sources */,
 				84B41492291C4924001FA524 /* Frameworks */,
 				84B41493291C4924001FA524 /* Resources */,
@@ -231,7 +265,7 @@
 				};
 			};
 			buildConfigurationList = 84B4147A291C4923001FA524 /* Build configuration list for PBXProject "SquareTakeHome" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -268,6 +302,53 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		77D2615B03FAF1AD7D3D1A8F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquareTakeHome-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D72EC049C3EDA99F388487A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SquareTakeHomeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84B4147B291C4923001FA524 /* Sources */ = {
@@ -330,7 +411,6 @@
 		84B414A7291C4924001FA524 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -377,7 +457,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -390,7 +470,6 @@
 		84B414A8291C4924001FA524 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -431,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -443,6 +522,7 @@
 		};
 		84B414AA291C4924001FA524 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 588AEC80CAFA762FBF6625B6 /* Pods-SquareTakeHome.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +551,7 @@
 		};
 		84B414AB291C4924001FA524 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEE2ED392AC491C7893ABB70 /* Pods-SquareTakeHome.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -499,8 +580,8 @@
 		};
 		84B414AD291C4924001FA524 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 724B3F01BCA6BE01242EF7A5 /* Pods-SquareTakeHomeTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,8 +607,8 @@
 		};
 		84B414AE291C4924001FA524 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B9E823BFFDD801686C6D8EE /* Pods-SquareTakeHomeTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
