@@ -47,5 +47,4 @@ class DirectoryViewModelTests: XCTestCase {
         vm.getEmployeeViewModels()
         waitForExpectations(timeout: 1, handler: nil)
     }
-
 }

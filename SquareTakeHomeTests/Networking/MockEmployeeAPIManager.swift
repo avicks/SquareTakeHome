@@ -5,7 +5,7 @@
 //  Created by Alex Vickers on 11/10/22.
 //
 
-import Foundation
+import UIKit
 @testable import SquareTakeHome
 
 enum APIMockType {
@@ -43,6 +43,6 @@ class MockEmployeeAPIManager: EmployeeAPIManagerProtocol {
     
     func fetchEmployeeImage(withUrl imageUrl: URL, completion: @escaping (Result<UIImage, Error>) -> Void) {
         let imagePath = NSString(string: "soccer")
-        return UIImage(named: String(describing: imagePath))!
+        completion(.success(UIImage(named: String(describing: imagePath))!))
     }
 }

@@ -28,5 +28,6 @@ class EmployeeImageCacheTests: XCTestCase {
         employeeImageCache.clearCache()
         image = employeeImageCache.getImage(forKey: imagePath)
         XCTAssertNil(image)
+
     }
 }
