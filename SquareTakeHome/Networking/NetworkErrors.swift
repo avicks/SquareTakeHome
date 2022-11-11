@@ -12,6 +12,7 @@ enum NetworkErrors: Error {
     case decodeEmployees
     case emptyDirectory
     case fetchEmployees(error: Error?)
+    case fetchImage
     
     var errorMessage: String {
         var messageString: String
@@ -27,6 +28,8 @@ enum NetworkErrors: Error {
             if let error = error {
                 messageString.append("\nError: \(error)")
             }
+        case .fetchImage:
+            messageString = "Could not fetch image."
         }
         
         return messageString

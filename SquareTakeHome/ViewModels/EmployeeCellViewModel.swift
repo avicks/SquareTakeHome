@@ -6,14 +6,18 @@
 //
 
 import UIKit
+import ReactiveSwift
 
 class EmployeeCellViewModel: Hashable {
+    
+    private static let defaultPhoto = UIImage(systemName: "person.circle")?.withTintColor(.lightGray)
+    
     let id: String
     let fullName: String
     let teamName: String
     let bio: String?
     let photoUrlSmall: String?
-    var smallPhoto: UIImage?
+    var smallPhoto = MutableProperty<UIImage?>(nil)
     
     init(employee: Employee) {
         id = employee.uuid
@@ -21,11 +25,7 @@ class EmployeeCellViewModel: Hashable {
         teamName = employee.team
         bio = employee.biography
         photoUrlSmall = employee.photoUrlSmall
-        smallPhoto = UIImage(systemName: "person.circle")?.withTintColor(.lightGray)
-    }
-    
-    func setEmployeePhoto(image: UIImage) {
-        self.smallPhoto = image
+        smallPhoto.swap(EmployeeCellViewModel.defaultPhoto)
     }
     
     func hash(into hasher: inout Hasher) {

@@ -8,6 +8,9 @@
 import UIKit
 
 struct EmployeeImageCache {
+    
+    static let shared = EmployeeImageCache()
+    
     private var cache: NSCache<NSString, UIImage>
     
     public init() {

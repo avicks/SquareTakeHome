@@ -40,4 +40,9 @@ class MockEmployeeAPIManager: EmployeeAPIManagerProtocol {
             completion(.success(employees))
         }
     }
+    
+    func fetchEmployeeImage(withUrl imageUrl: URL, completion: @escaping (Result<UIImage, Error>) -> Void) {
+        let imagePath = NSString(string: "soccer")
+        return UIImage(named: String(describing: imagePath))!
+    }
 }
