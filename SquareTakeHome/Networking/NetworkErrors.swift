@@ -9,18 +9,24 @@ import Foundation
 
 enum NetworkErrors: Error {
     case badURL(urlString: String)
-    case fetchEmployees
     case decodeEmployees
+    case emptyDirectory
+    case fetchEmployees(error: Error?)
     
     var errorMessage: String {
-        let messageString: String
+        var messageString: String
         switch self {
         case .badURL(urlString: let urlString):
             messageString = "Could not initialize URL from \(urlString)."
-        case .fetchEmployees:
-            messageString = "Could not load employee directory."
         case .decodeEmployees:
             messageString = "Could not decode employee data."
+        case .emptyDirectory:
+            messageString = "The directory is empty."
+        case .fetchEmployees(let error):
+            messageString = "Could not load employee directory."
+            if let error = error {
+                messageString.append("\nError: \(error)")
+            }
         }
         
         return messageString

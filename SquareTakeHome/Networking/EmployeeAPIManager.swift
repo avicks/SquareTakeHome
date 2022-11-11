@@ -26,7 +26,7 @@ final class EmployeeAPIManager: EmployeeAPIManagerProtocol {
             }
             
             guard let data = data else {
-                completion(.failure(NetworkErrors.fetchEmployees))
+                completion(.failure(NetworkErrors.fetchEmployees(error: nil)))
                 return
             }
             
