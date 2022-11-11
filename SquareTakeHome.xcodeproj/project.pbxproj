@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		841A4FC2291F057400B30DD4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 841A4FC1291F057400B30DD4 /* README.md */; };
 		84B41483291C4923001FA524 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B41482291C4923001FA524 /* AppDelegate.swift */; };
 		84B41485291C4923001FA524 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B41484291C4923001FA524 /* SceneDelegate.swift */; };
 		84B4148C291C4924001FA524 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84B4148B291C4924001FA524 /* Assets.xcassets */; };
@@ -53,6 +54,7 @@
 		588AEC80CAFA762FBF6625B6 /* Pods-SquareTakeHome.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHome.debug.xcconfig"; path = "Target Support Files/Pods-SquareTakeHome/Pods-SquareTakeHome.debug.xcconfig"; sourceTree = "<group>"; };
 		6B9E823BFFDD801686C6D8EE /* Pods-SquareTakeHomeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHomeTests.release.xcconfig"; path = "Target Support Files/Pods-SquareTakeHomeTests/Pods-SquareTakeHomeTests.release.xcconfig"; sourceTree = "<group>"; };
 		724B3F01BCA6BE01242EF7A5 /* Pods-SquareTakeHomeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHomeTests.debug.xcconfig"; path = "Target Support Files/Pods-SquareTakeHomeTests/Pods-SquareTakeHomeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		841A4FC1291F057400B30DD4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		84B4147F291C4923001FA524 /* SquareTakeHome.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SquareTakeHome.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B41482291C4923001FA524 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84B41484291C4923001FA524 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		84B41476291C4923001FA524 = {
 			isa = PBXGroup;
 			children = (
+				841A4FC1291F057400B30DD4 /* README.md */,
 				84B41481291C4923001FA524 /* SquareTakeHome */,
 				84B41498291C4924001FA524 /* SquareTakeHomeTests */,
 				84B41480291C4923001FA524 /* Products */,
@@ -374,6 +377,7 @@
 			files = (
 				84B414DC291D96C5001FA524 /* soccer.png in Resources */,
 				84B4148F291C4924001FA524 /* LaunchScreen.storyboard in Resources */,
+				841A4FC2291F057400B30DD4 /* README.md in Resources */,
 				84B4148C291C4924001FA524 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
