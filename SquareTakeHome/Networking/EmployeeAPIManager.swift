@@ -43,14 +43,14 @@ final class EmployeeAPIManager: EmployeeAPIManagerProtocol {
     }
     
     func fetchEmployeeImage(withUrl imageUrl: URL, completion: @escaping (Result<UIImage, Error>) -> Void) {
-        if let image = EmployeeImageCache.shared.getImage(forKey: imageUrl.asCacheKey) {
+        if let image = EmployeeImageCache.shared.getImage(forKey: imageUrl.imageCacheKey) {
             completion(.success(image))
         } else {
             let request = URLRequest(url: imageUrl)
             URLSession.shared.dataTask(with: request) { data, _, _ in
                 if let data = data,
                    let image = UIImage(data: data) {
-                    EmployeeImageCache.shared.store(image: image, forKey: imageUrl.asCacheKey)
+                    EmployeeImageCache.shared.store(image: image, forKey: imageUrl.imageCacheKey)
                     completion(.success(image))
                     return
                 } else {
