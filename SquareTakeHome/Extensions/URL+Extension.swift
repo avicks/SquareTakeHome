@@ -8,7 +8,13 @@
 import Foundation
 
 extension URL {
-    var asCacheKey : NSString {
-        return self.absoluteString as NSString
+    
+    
+    /// Assuming all image paths are uniform for this exercise,
+    ///   return the image UUID in the path supplied by the URL
+    var imageCacheKey : String {
+        let pathComponents = self.pathComponents
+        let key = "\(pathComponents[pathComponents.count - 2]).jpg"
+        return key
     }
 }

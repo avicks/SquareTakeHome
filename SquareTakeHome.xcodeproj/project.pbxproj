@@ -36,6 +36,9 @@
 		84B414F0291EB975001FA524 /* ReuseIdentifying.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414EF291EB975001FA524 /* ReuseIdentifying.swift */; };
 		84B414F4291EBA88001FA524 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414F3291EBA88001FA524 /* Coordinator.swift */; };
 		84B414F6291EBAA3001FA524 /* EmployeeCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B414F5291EBAA3001FA524 /* EmployeeCoordinator.swift */; };
+		84DA0378293288F6003BAF86 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA0377293288F6003BAF86 /* main.swift */; };
+		84DA037B2932A0F8003BAF86 /* TestingAppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA037A2932A0F8003BAF86 /* TestingAppDelegate.swift */; };
+		84DA037D2932A1E1003BAF86 /* TestingSceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84DA037C2932A1E1003BAF86 /* TestingSceneDelegate.swift */; };
 		950DE85B2313D03847CBC933 /* libPods-SquareTakeHomeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FE4945DA354C184C782A5409 /* libPods-SquareTakeHomeTests.a */; };
 		D30C13757E3857698D4E3E0D /* libPods-SquareTakeHome.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6EF8C389FBE9A854752E1C1 /* libPods-SquareTakeHome.a */; };
 /* End PBXBuildFile section */
@@ -86,6 +89,9 @@
 		84B414EF291EB975001FA524 /* ReuseIdentifying.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReuseIdentifying.swift; sourceTree = "<group>"; };
 		84B414F3291EBA88001FA524 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 		84B414F5291EBAA3001FA524 /* EmployeeCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeCoordinator.swift; sourceTree = "<group>"; };
+		84DA0377293288F6003BAF86 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84DA037A2932A0F8003BAF86 /* TestingAppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingAppDelegate.swift; sourceTree = "<group>"; };
+		84DA037C2932A1E1003BAF86 /* TestingSceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingSceneDelegate.swift; sourceTree = "<group>"; };
 		C6EF8C389FBE9A854752E1C1 /* libPods-SquareTakeHome.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareTakeHome.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE4945DA354C184C782A5409 /* libPods-SquareTakeHomeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SquareTakeHomeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FEE2ED392AC491C7893ABB70 /* Pods-SquareTakeHome.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SquareTakeHome.release.xcconfig"; path = "Target Support Files/Pods-SquareTakeHome/Pods-SquareTakeHome.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,6 +120,7 @@
 		84B41476291C4923001FA524 = {
 			isa = PBXGroup;
 			children = (
+				84DA0376293287E3003BAF86 /* Delegates */,
 				841A4FC1291F057400B30DD4 /* README.md */,
 				84B41481291C4923001FA524 /* SquareTakeHome */,
 				84B41498291C4924001FA524 /* SquareTakeHomeTests */,
@@ -143,8 +150,6 @@
 				84B414E4291EB2C0001FA524 /* ViewControllers */,
 				84B414CB291D550D001FA524 /* ViewModels */,
 				84B414E9291EB8F3001FA524 /* Views */,
-				84B41482291C4923001FA524 /* AppDelegate.swift */,
-				84B41484291C4923001FA524 /* SceneDelegate.swift */,
 				84B4148B291C4924001FA524 /* Assets.xcassets */,
 				84B4148D291C4924001FA524 /* LaunchScreen.storyboard */,
 				84B41490291C4924001FA524 /* Info.plist */,
@@ -155,6 +160,7 @@
 		84B41498291C4924001FA524 /* SquareTakeHomeTests */ = {
 			isa = PBXGroup;
 			children = (
+				84DA03792932A0EA003BAF86 /* Delegates */,
 				84B414E1291DA348001FA524 /* ViewModels */,
 				84B414C6291D4E68001FA524 /* Networking */,
 				84B414BA291CA2DC001FA524 /* Stubs */,
@@ -269,6 +275,25 @@
 				84B414F5291EBAA3001FA524 /* EmployeeCoordinator.swift */,
 			);
 			path = Navigation;
+			sourceTree = "<group>";
+		};
+		84DA0376293287E3003BAF86 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				84B41482291C4923001FA524 /* AppDelegate.swift */,
+				84B41484291C4923001FA524 /* SceneDelegate.swift */,
+				84DA0377293288F6003BAF86 /* main.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		84DA03792932A0EA003BAF86 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				84DA037A2932A0F8003BAF86 /* TestingAppDelegate.swift */,
+				84DA037C2932A1E1003BAF86 /* TestingSceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		DCA27A96EC51EF6FF0485A13 /* Pods */ = {
@@ -458,6 +483,7 @@
 				84B414E6291EB2CE001FA524 /* DirectoryViewController.swift in Sources */,
 				84B414D7291D926F001FA524 /* EmployeeImageCache.swift in Sources */,
 				84B414E8291EB766001FA524 /* UICollectionView+Extensions.swift in Sources */,
+				84DA0378293288F6003BAF86 /* main.swift in Sources */,
 				84B414E0291D987F001FA524 /* EmployeeCellViewModel.swift in Sources */,
 				84B414C3291CA750001FA524 /* NetworkErrors.swift in Sources */,
 				84B414F0291EB975001FA524 /* ReuseIdentifying.swift in Sources */,
@@ -473,6 +499,8 @@
 				84B414B8291CA2BB001FA524 /* ValidEmployeeData.swift in Sources */,
 				84B414B6291C49BE001FA524 /* EmployeeTests.swift in Sources */,
 				84B414CA291D4E7F001FA524 /* MockEmployeeAPIManager.swift in Sources */,
+				84DA037B2932A0F8003BAF86 /* TestingAppDelegate.swift in Sources */,
+				84DA037D2932A1E1003BAF86 /* TestingSceneDelegate.swift in Sources */,
 				84B414DB291D929F001FA524 /* EmployeeImageCacheTests.swift in Sources */,
 				84B414BC291CA309001FA524 /* MalformedEmployeeData.swift in Sources */,
 			);
